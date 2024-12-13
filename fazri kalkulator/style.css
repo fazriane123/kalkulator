@@ -1,0 +1,69 @@
+/* Gaya dasar untuk kalkulator */ 
+.calculator { 
+    max-width: 400px; 
+    margin: auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+} 
+ 
+.display { 
+    font-size: 1.5rem; 
+    height: 3rem; 
+    text-align: right; 
+} 
+ 
+.btn-number { 
+    background-color: #f8f9fa; 
+    color: #212529; 
+} 
+ 
+.btn-number:hover { 
+    background-color: #e9ecef; 
+} 
+ 
+.btn-operator { 
+    background-color: #ffc107; 
+    color: #212529; 
+} 
+ 
+.btn-operator:hover { 
+    background-color: #ffcd39; 
+} 
+ 
+.btn-clear, .btn-clear-history { 
+    background-color: #dc3545; 
+    color: #fff; 
+} 
+ 
+.btn-clear:hover, .btn-clear-history:hover { 
+    background-color: #c82333; 
+} 
+ 
+/* Gaya mode gelap */ 
+body.dark-mode { 
+    background-color: #212529; 
+    color: #f8f9fa; 
+} 
+ 
+body.dark-mode .card { 
+    background-color: #343a40; 
+} 
+ 
+body.dark-mode .btn-number { 
+    background-color: #495057; 
+    color: #f8f9fa; 
+} 
+ 
+body.dark-mode .btn-number:hover { 
+    background-color: #6c757d; 
+} 
+ 
+body.dark-mode .btn-operator { 
+    background-color: #ffc107; 
+    color: #212529; 
+} 
+ 
+body.dark-mode .btn-clear, body.dark-mode .btn-clear-history { 
+    background-color: #c82333;
+}
